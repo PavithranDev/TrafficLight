@@ -1,0 +1,102 @@
+body{
+    padding: 0;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+}
+
+.body{
+    width: 200px;
+    display: flex;
+    height: 600px;
+    background-color: black;
+    border-radius: 20%;
+    position: relative;
+}
+.red{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    left: 51px;
+    top:70px;
+}
+.yellow{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    left: 51px;
+    top:250px;
+}
+.green{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    left: 51px;
+    top:450px;
+}
+button{
+    font-size: 50px;
+    padding: 20px;
+    width: 200px;
+    margin-top: 90px;
+    border-radius: 10%;
+}
+.RED{
+    background-color: whitesmoke;
+    font-weight: 200px;
+
+}
+.RED:hover{
+    cursor: pointer;
+    background-color: red;
+}
+.YELLOW{
+    background-color: whitesmoke;
+}
+.YELLOW:hover{
+cursor: pointer;
+background-color:yellow;
+}
+.GREEN{
+    background-color: whitesmoke;
+}
+.GREEN:hover{
+    cursor: pointer;
+    background-color: green;
+}
+.lightred{
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    left: 51px;
+    top:70px;
+}
+.lightyellow{
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(242, 255, 0);
+    border-radius: 50%;
+    left: 51px;
+    top:250px;
+}
+.lightgreen{
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color:green;
+    border-radius: 50%;
+    left: 51px;
+    top:450px;
+}
